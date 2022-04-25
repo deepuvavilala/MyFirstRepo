@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <script>
+        // alert("Hi");
+        // let today = new Date();
+
+        // // let date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
+        // console.log(today);
+        // // console.log(date);
+        // document.body.innerHTML=today;
+
+       
+    </script> -->
+    <!-- /*
+    <button type="button" id = "bt1" class ="red" onclick="func()">Red</button>
+    <button type="button" id = "bt2" class ="green" onclick="func()">Green</button>
+    <button type="button" id = "bt3" class ="blue"  onclick="func()">Blue</button>
+    <p id="text" class = "changecolor" onclick="func()">My colour will be changed when clicked</p>
+    <script>
+        const button1 = document.getElementById("bt1").style.color = "red";
+        const name = document.querySelector(".changecolor");
+        function func(){
+            name.style.color = "red";
+        }
+    </script>*/ -->
+
+    <script>
+        const string = "This*is*my*assignment";
+        const arr = string.split("*");
+        console.log(arr);// Here i get ["This","is","my","assignment"]
+         console.log(arr.shift());
+         console.log(arr.toString());
+
+        // const arr1 = arr.splice(1);// here we are removing the first word of the array
+        // console.log(arr1.toString().replace(/,/g,'*');// 
+        // const arr2 = arr.slice(1,4);
+        // console.log(arr2.toString().replace(/,/g,'*');// 
+        // console.log(arr.pop().replace(/,/g,'*');//here we removed last element
+        // console.log(arr.toString().replace(/,/g,'*');
+        // const arr4 = arr.splice(0,3);
+        // console.log(arr4.toString().replace(/,/g,'*');
+        const arr5 = arr.slice(0,-1);
+        console.log(arr5.toString().replace(/,/g,'*'));
+    </script>
+
+</body>
+
+</html>
